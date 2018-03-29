@@ -179,7 +179,6 @@ for i in range(len(transformed_dataset)):
 
 dataloader = DataLoader(transformed_dataset, batch_size=4, shuffle=True, num_workers=4)
 
-
 # Helper function to show a batch
 def show_landmarks_batch(sample_batched):
     """Show image with landmarks for a batch of samples."""
